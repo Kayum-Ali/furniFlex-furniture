@@ -45,6 +45,9 @@ const Navbar = () => {
               <li>
               <NavLink to={`/order-details`}>Order Details</NavLink>{" "}
             </li>
+            <li>
+              <NavLink to={`/login`}>Login</NavLink>{" "}
+            </li>
             </ul>
           </div>
           <Link to={`/`} className=" text-xl">
@@ -73,6 +76,9 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink to={`/order-details`}>Order Details</NavLink>{" "}
+            </li>
+            <li>
+              <NavLink to={`/login`}>Login</NavLink>{" "}
             </li>
           </ul>
         </div>
