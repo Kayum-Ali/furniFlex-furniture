@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "product_title": "Recliner Chair Wood",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616223/image_125-removebg-preview_1_rn7c6x.png",
+    "product_price": "499.99",
+    "discount_price": "399.99",
+    "product_description": "It has a backrest that can be tilted back, and often a footrest extended."
+  },
+  {
+    "id": 2,
+    "product_title": "Timber Ride Padded",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616297/rocking-chair-with-padded-seat_1_ekee7v.png",
+    "product_price": "199.99",
+    "discount_price": "159.99",
+    "product_description": "High Back Rocking Side Pocket Portable Folding Outdoor Camping Chairs "
+  },
+  {
+    "id": 3,
+    "product_title": "Colored Wooden Chair",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616347/image_146_lxn4sd.png",
+    "product_price": "299.99",
+    "discount_price": "249.99",
+    "product_description": "It has a backrest that can be tilted back, and often a footrest extended"
+  },
+  {
+    "id": 4,
+    "product_title": "Blank Bamboo Wicker",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616446/image_147_gwthnm.png",
+    "product_price": "349.99",
+    "discount_price": "279.99",
+    "product_description": "Lightweight, easy to clean, sturdy, safe and stable. Non-slip legs"
+  },
+  {
+    "id": 5,
+    "product_title": "Isolated Wooden Rock",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616488/image_148_nxzu3g.png",
+    "product_price": "129.99",
+    "discount_price": "99.99",
+    "product_description": "It has a backrest that can be tilted back, and often a footrest extended"
+  },
+  {
+    "id": 6,
+    "product_title": "Minimal Empty Rocking",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616552/image_149_j0fysf.png",
+    "product_price": "799.99",
+    "discount_price": "649.99",
+    "product_description": "A seat, especially for one person, usually having four legs for support."
+  },
+  {
+    "id": 7,
+    "product_title": "Mid-Century Modern Dining Chair",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616603/images_1_okkfdy.jpg",
+    "product_price": "149.99",
+    "discount_price": "119.99",
+    "product_description": "Stylish mid-century modern dining chair with a wooden frame and comfortable upholstery."
+  },
+  {
+    "id": 8,
+    "product_title": "Teak Wood Writing Desk",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616632/images_2_cyqkej.jpg",
+    "product_price": "379.99",
+    "discount_price": "299.99",
+    "product_description": "Durable teak wood writing desk with elegant design and ample workspace."
+  },
+  {
+    "id": 9,
+    "product_title": "Custom Built-In Bookshelves",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616659/images_3_spjqdm.jpg",
+    "product_price": "999.99",
+    "discount_price": "849.99",
+    "product_description": "Custom-built wooden bookshelves designed to fit your space perfectly, offering ample storage."
+  },
+  {
+    "id": 10,
+    "product_title": "Vintage Oak Chest of Drawers",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616703/images_4_lghm9p.jpg",
+    "product_price": "449.99",
+    "discount_price": "349.99",
+    "product_description": "Charming vintage oak chest with multiple drawers and intricate detailing."
+  },
+  {
+    "id": 11,
+    "product_title": "Scandinavian Style Coffee Table",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616725/images_5_dintob.jpg",
+    "product_price": "179.99",
+    "discount_price": "139.99",
+    "product_description": "Minimalist Scandinavian coffee table with a sleek design and sturdy wooden legs."
+  },
+  {
+    "id": 12,
+    "product_title": "Country Style Rocking Chair",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616751/images_rvsslv.jpg",
+    "product_price": "229.99",
+    "discount_price": "179.99",
+    "product_description": "Comfortable country-style rocking chair made from high-quality wood with a timeless design."
+  },
+  {
+    "id": 13,
+    "product_title": "Solid Maple TV Stand",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616778/download_1_coytyb.jpg",
+    "product_price": "299.99",
+    "discount_price": "249.99",
+    "product_description": "Sturdy solid maple TV stand with a contemporary design and ample storage for electronics."
+  },
+  {
+    "id": 14,
+    "product_title": "Rustic Farmhouse Dining Bench",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616801/download_2_gdyzmf.jpg",
+    "product_price": "249.99",
+    "discount_price": "199.99",
+    "product_description": "Rustic farmhouse dining bench with a distressed finish, ideal for both dining rooms and entryways."
+  },
+  {
+    "id": 15,
+    "product_title": "Handcrafted Wooden Toy Chest",
+    "product_img": "https://res.cloudinary.com/dqescabbl/image/upload/v1725616819/download_r8uznw.jpg",
+    "product_price": "159.99",
+    "discount_price": "129.99",
+    "product_description": "Charming handcrafted wooden toy chest with a durable construction and playful design."
+  }
+]
