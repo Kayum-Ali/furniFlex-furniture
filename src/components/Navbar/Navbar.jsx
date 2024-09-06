@@ -68,6 +68,9 @@ const Navbar = () => {
             <li>
               <NavLink to={`/blog`}>Blog</NavLink>{" "}
             </li>
+            <li>
+              <NavLink to={`/order-details`}>Order Details</NavLink>{" "}
+            </li>
           </ul>
         </div>
         <div className="navbar-end gap-4">

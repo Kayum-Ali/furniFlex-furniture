@@ -6,6 +6,8 @@ import { FaChevronRight } from "react-icons/fa";
 
 
 
+
+
 const Blog = () => {
   const { blogProducts, loading, } = useContext(BlogContext);
   const [dataLength, setDataLength] = useState(6);
@@ -60,12 +62,12 @@ const Blog = () => {
        
             <div className="join ">
             
-                <button className="join-item btn">  <FaChevronLeft></FaChevronLeft></button>
-                <button className="join-item btn btn-active">1</button>
-                <button className="join-item btn ">2</button>
+                <button onClick={()=> setDataLength(6)} className="join-item btn">  <FaChevronLeft ></FaChevronLeft></button>
+                <button className={`join-item btn ${dataLength === 6 && 'btn-active'}`}>1</button>
+                <button className={`join-item btn ${dataLength === 15 && 'btn-active'}`}>2</button>
                 <button className="join-item btn">3</button>
                 <button className="join-item btn">4</button>
-                <button className="join-item btn"><FaChevronRight></FaChevronRight></button>
+                <button onClick={()=>setDataLength(blogProducts.length)} className="join-item btn"><FaChevronRight></FaChevronRight></button>
             </div>
       </div>
 

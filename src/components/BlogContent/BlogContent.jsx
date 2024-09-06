@@ -1,9 +1,16 @@
 import PropTypes from 'prop-types';
+import { BsCartCheck } from "react-icons/bs";
+import { saveItem } from '../../utility/LocalStorage';
+
 
 const BlogContent = ({product}) => {
     // const key = Object.keys(product).join(',');
     // console.log(key)
     const {id,product_title,product_img,product_price,discount_price,product_description} = product;
+
+    const handleAddToCart = (id)=>{
+        saveItem(id)
+    }
     return (
         <div>
             <div className="border p-5 rounded-lg">
@@ -17,7 +24,7 @@ const BlogContent = ({product}) => {
                     <span className="text-red-500 text-xl font-bold px-3">30% OFF</span>
                 </div>
                 <p className="opacity-85 px-1 pt-5">{product_description.slice(0,70)}</p>
-                <button className="px-5 py-2.5 rounded-lg w-full text-white bg-black mt-5 ">Add to Cart</button>
+                <button onClick={ ()=>handleAddToCart(+id)}  className="px-5 py-2.5 flex items-center justify-center gap-3 rounded-lg w-full text-white bg-black mt-5 "><BsCartCheck className='text-xl font-bold'></BsCartCheck> Add to Cart</button>
 
             </div>
             
