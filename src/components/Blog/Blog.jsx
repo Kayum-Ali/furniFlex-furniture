@@ -23,24 +23,24 @@ const Blog = () => {
         Hasan Furniture {blogProducts.length}
       </h2>
 
-      <div className="grid grid-cols-3 md:grid-cols-8 lg:grid-cols-12 gap-5 pb-12">
+      <div className="grid grid-cols-3 md:grid-cols-8 lg:grid-cols-12 gap-2 lg:gap-5 pb-12">
         {/* sidebar */}
         <div className="col-span-1 md:col-span-2 lg:col-span-2 border-r-2 pr-4">
           <div className="font-bold space-y-4">
-            <button className="px-5 py-2.5 hover:bg-black bg-base-300 rounded-lg w-full hover:text-white text-black ">
+            <button className="px-2 lg:px-5 py-2.5 hover:bg-black bg-base-300 rounded-lg w-full hover:text-white text-black ">
               Rocking chair
             </button>
 
-            <button className="px-5 py-2.5 hover:bg-black bg-base-300 rounded-lg w-full hover:text-white text-black ">
+            <button className="px-2 lg:px-5 py-2.5 hover:bg-black bg-base-300 rounded-lg w-full hover:text-white text-black ">
               Side chair
             </button>
 
-            <button className="px-5 py-2.5 hover:bg-black bg-base-300 rounded-lg w-full hover:text-white text-black ">
+            <button className="px-2 lg:px-5 py-2.5 hover:bg-black bg-base-300 rounded-lg w-full hover:text-white text-black ">
               Lounge chair
             </button>
           </div>
         </div>
-        <div className="col-span-2 md:col-span-6 lg:col-span-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="col-span-2 md:col-span-6 lg:col-span-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-3">
           {blogProducts.slice(0, dataLength).map((product) => (
             <BlogContent key={product.id} product={product}></BlogContent>
           ))}

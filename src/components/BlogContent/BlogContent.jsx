@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { BsCartCheck } from "react-icons/bs";
 import { saveItem } from '../../utility/LocalStorage';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 const BlogContent = ({product}) => {
@@ -10,6 +12,7 @@ const BlogContent = ({product}) => {
 
     const handleAddToCart = (id)=>{
         saveItem(id)
+        toast.success(`Item added to cart successfully`)
     }
     return (
         <div>
@@ -27,6 +30,7 @@ const BlogContent = ({product}) => {
                 <button onClick={ ()=>handleAddToCart(+id)}  className="px-5 py-2.5 flex items-center justify-center gap-3 rounded-lg w-full text-white bg-black mt-5 "><BsCartCheck className='text-xl font-bold'></BsCartCheck> Add to Cart</button>
 
             </div>
+            <ToastContainer></ToastContainer>
             
         </div>
     );
